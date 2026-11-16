@@ -1,6 +1,6 @@
-let sub = ["Barstool Admin", "Business major #22314", "Random campus walker", "A pledge"];
-let place = ["McBryde backrooms", "Torg bridge study lounge", "Benny's line", "Centros"];
-let conclusion = ["drove on the 81 and ran someone off the road", "pulled the fire alarm in Pritchard", "surprisingly did nothing"]
+let sub = ["Barstool Admin", "Business major #22314", "Random campus walker", "A pledge", "Random engineer"];
+let place = ["McBryde backrooms", "Torg bridge study lounge", "Benny's line", "Centros", "New Classroom building"];
+let conclusion = ["drove on the 81 and ran someone off the road", "pulled the fire alarm in Pritchard", "surprisingly did nothing", "crashed thier car into it", "got posted on RedCup"]
 
 let sentence = "Click Here";
 
@@ -12,7 +12,7 @@ function draw() {
   background(155);
 
   textAlign(CENTER);
-  fill(0, 0, 0);
+  fill(255, 255, 255);
   textWrap(WORD);
   textSize(25);
   text(sentence, 100, 100, 200);
