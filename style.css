@@ -1,7 +1,20 @@
-html, body {
+body {
   margin: 0;
-  padding: 0;
+  padding: 20;
+  text-align: center;
+  background-color: antiquewhite;
 }
+
 canvas {
   display: block;
+  margin: auto;
+}
+
+h1 {
+  font-style: italic;
+}
+
+h2 {
+  font-size: medium;
+  font-weight: 200;
 }
