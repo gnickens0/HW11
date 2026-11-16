@@ -17,4 +17,11 @@ h1 {
 h2 {
   font-size: medium;
   font-weight: 200;
+  font-style: oblique;
+}
+
+p {
+  font-size: small;
+  font-style: oblique;
+  
 }
